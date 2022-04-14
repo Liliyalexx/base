@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js"
+    integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>The Complete jQuery Course - Project Structure</title>
 </head>
+
 <body>
   <div id="content">
     <h1>The Complete jQuery Course - Project Structure</h1>
@@ -14,11 +17,67 @@
     <div class="red-box">Red</div>
     <div class="green-box">Green</div>
     <div class="blue-box">Blue</div>
+    <!-- <div class="blue-box" style="display: none"> Blue 2</div> -->
     <div class="clear"></div>
 
     <h2>Hi, I'm the Base Project!</h2>
-    <p>Add elements here as you like to try out jQuery. This is your playground to test out anything that comes into your mind.</p>
-    <p><strong>OR:</strong> Copy this project structure into a new directory first to create separate playgrounds for animations, manipulations, event handlers etc.</p>
+    <p>Add elements here as you like to try out jQuery. This is your playground to test out anything that comes into
+      your mind.</p>
+    <p><strong>OR:</strong> Copy this project structure into a new directory first to create separate playgrounds for
+      animations, manipulations, event handlers etc.</p>
+    <!-- ul#list>li*4>{Main item $}>ul>li*2>{Sub i} -->
+    <ul id="list">
+      <li>
+        Main item 1
+        <ul>
+          <li>Sub i</li>
+          <li>Sub i</li>
+        </ul>
+      </li>
+      <li>
+        Main item 2
+        <ul>
+          <li>Sub i</li>
+          <li>Sub i</li>
+        </ul>
+      </li>
+      <li>
+        Main item 3
+        <ul>
+          <li>Sub i</li>
+          <li>Sub i</li>
+        </ul>
+      </li>
+      <li>
+        Main item 4
+        <ul>
+          <li>Sub i</li>
+          <li>Sub i</li>
+        </ul>
+      </li>
+    </ul>
+    <form action="">
+      <input type="text" aria-label="Text"><br>
+      <input type="email" aria-label="Email"><br>
+      <textarea aria-label="textarea" name="" id="" cols="30" rows="10"></textarea><br>
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+  <div class="lightbox">
+    <h2> Lightbox</h2>
+    <p> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
+      in laying out print, graphic or web designs. The passage is attributed
+      to an unknown typesetter in the 15th century who is thought to have
+      scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
+      type specimen book. It usually begins with:</p>
+
+    <form action="">
+      <input type="email" placeholder="Your best email">
+      <input type="submit" value="Sign me up">
+    </form>
+
   </div>
 </body>
+
 </html>
